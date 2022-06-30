@@ -21,4 +21,7 @@ service nginx status
 
 # Quit nginx
 nginx -s quit
+
+# Stop the container
+docker stop ubuntu-nginx-container
 ```
